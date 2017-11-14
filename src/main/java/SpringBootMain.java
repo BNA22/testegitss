@@ -23,7 +23,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class SpringBootMain extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
-	  System.out.println("bia");
+	  System.out.println("feio");
 		SpringApplication.run(SpringBootMain.class, args);
 	}
 
