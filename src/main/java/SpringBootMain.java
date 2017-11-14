@@ -22,7 +22,8 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class })
 public class SpringBootMain extends SpringBootServletInitializer {
 
-	public static void main(String[] args) {hfhf
+	public static void main(String[] args) {
+	  System.out.println("feio");
 		SpringApplication.run(SpringBootMain.class, args);
 	}
 
